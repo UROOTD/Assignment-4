@@ -1,0 +1,94 @@
+body {
+  background-color: #f6b469;
+}
+
+.content{
+  max-width: 65%;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  padding:0 1.5rem;
+  color:#273c4b;
+}
+
+.card {
+  background-color: #273c4b;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.rating{
+  direction: rtl;
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 65px;
+}
+
+.rating label:before{
+  content: "\2605";
+  position: absolute;
+  display: inline-block;
+  font-size: 50px;
+  top: 0;
+  left: 0;
+}
+
+.rating label:after{
+  content: "\2605";
+  position: absolute;
+  display: inline-block;
+  font-size: 50px;
+  top: 0;
+  left: 0;
+  color: yellow;
+  opacity: 0;
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after{
+  opacity: 1;
+}
+
+.suka {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+#gallery-popup .modal-img{
+	width: 100%;
+}
+
+.gallery img{
+  cursor: pointer;
+}
+
+.credit{
+    text-align: center;
+    padding:0.5rem;
+    font-size: 1rem;
+    color:#385973;
+    border-top: .1rem solid rgba(0,0,0,.1);
+}
+
+.credit span{
+    color:#f36b60;
+}
