@@ -9,6 +9,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="stylesheet.css" />
   <link rel="stylesheet" href="starrr.css" />
 
@@ -110,12 +111,14 @@
         </div>
       </div>
     </nav>
+    <!-- Akhir Navbar -->
   </header>
   <br />
   <br />
   <br />
   <br />
   <section class="gallery">
+    <h1 class="heading"> Kategori <span>Pria</span> </h1>
     <div class="container content">
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
@@ -123,7 +126,7 @@
             <img src="img\1.1.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
               <?php
@@ -136,7 +139,7 @@
             <img src="img\1.2.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -150,7 +153,7 @@
             <img src="img\1.3.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -160,7 +163,7 @@
             <img src="img\1.4.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -174,7 +177,7 @@
             <img src="img\1.5.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -184,7 +187,7 @@
             <img src="img\1.6.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -198,7 +201,7 @@
             <img src="img\1.7.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -208,7 +211,7 @@
             <img src="img\1.8.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -222,7 +225,7 @@
             <img src="img\1.9.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -232,7 +235,7 @@
             <img src="img\1.10.jpg" class="card-img-top" alt="..." />
               <form method="POST" onsubmit="return saveRatings(this);"><br>
                 <input type="hidden" name="product_id" value="<?php echo $row->id; ?>">
-                <div class="starrr"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="starrr"></div> &nbsp;
                 <input type="submit" class="button"/>
               </form>
           </div>
@@ -268,6 +271,17 @@
       }
     })
   </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.card');
+
+      galleryImage.forEach((img) => {
+        img.dataset.aos = 'flip-up';
+      })
+
+      AOS.init();
+    </script>
 
   <br><div class="credit"> Copyright &copy; 2021 - <span> UROOTD </span> | All Rights Reserved </div>
 
