@@ -1,0 +1,16 @@
+.starrr {
+  display: inline-block; }
+  .starrr a {
+    font-size: 30px;
+    padding: 0 25px;
+    cursor: pointer;
+    color: #FFD119;
+    text-decoration: none; 
+    width: 30px;
+}
+
+.button{
+  background-color: #FFEEE3;
+  color: #273C4B;
+}
+
