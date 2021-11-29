@@ -1,4 +1,4 @@
-# Assignment-4
+# Assignments
 
 # Kelompok 13
 - [Ayu Andini MH](https://github.com/Iyou06) 1313620004
