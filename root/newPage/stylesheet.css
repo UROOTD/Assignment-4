@@ -26,47 +26,6 @@ body {
   padding-bottom: 80px;
 }
 
-.rating{
-  direction: rtl;
-}
-
-.rating input{
-    display: none;
-}
-
-.rating label{
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  width: 65px;
-}
-
-.rating label:before{
-  content: "\2605";
-  position: absolute;
-  display: inline-block;
-  font-size: 50px;
-  top: 0;
-  left: 0;
-}
-
-.rating label:after{
-  content: "\2605";
-  position: absolute;
-  display: inline-block;
-  font-size: 50px;
-  top: 0;
-  left: 0;
-  color: yellow;
-  opacity: 0;
-}
-
-.rating label:hover:after,
-.rating label:hover ~ label:after,
-.rating input:checked ~ label:after{
-  opacity: 1;
-}
-
 .suka {
   width: 500px;
   margin: auto;
