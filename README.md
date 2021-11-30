@@ -12,3 +12,6 @@ https://urootdd.000webhostapp.com/
 
 # Deskripsi Singkat
 Sebuah webite yang memberi rekomendasi *outfit* untuk menunjang kebutuhan pengguna.
+
+# Current Progress
+Kemajuan hingga saat ini adalah sudah terlaksananya segala pekerjaan pada sprint 1-3 yang rincian pembagian tugasnya dapat dilihat pada project github.
