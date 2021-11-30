@@ -54,7 +54,7 @@
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
                                 @method('DELETE')
-                                <button href="">Logout</button>
+                                <button class="btn btn-dark" href="">Logout</button>
 
                             </form>
                         </li>
