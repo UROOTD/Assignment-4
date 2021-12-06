@@ -46,27 +46,36 @@
                         </li>
                     </ul>
                     @auth
-
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item ">
-                            <button class="btn btn-dark"> Halo, {{ auth()->user()->name }}
-                            </button>
-                            <form method="POST" action="{{ route('logout') }}">
-                                @csrf
-                                @method('DELETE')
-                                <button class="btn btn-dark" href="">Logout</button>
-
-                            </form>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Halo, {{ auth()->user()->name }}
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">
+                                            <form method="POST" action="{{ route('logout') }}">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button class="btn btn-dark" href="" style="float:left;">Logout</button>
+                                            </form>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
                     @endauth
                     @guest
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('login') }}">Masuk</a>
+                            <a class="nav-link active" aria-current="page" href="{{ route('login') }}"><button
+                                    class="btn btn-1">Masuk</button></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('regist') }}">Daftar</a>
+                            <a class="nav-link active" aria-current="page" href="{{ route('regist') }}"><button
+                                    class="btn btn-3">Daftar</button></a>
                         </li>
                     </ul>
                     @endguest
@@ -77,81 +86,109 @@
     </header>
     <section class="beranda" id="beranda"></section>
     <!-- awal banner -->
-    <div class="slider">
-        <div class="myslide">
-            <div class="txt first" data-aos="fade-up" data-aos-duration="1000">
-                <h3>#UROOTD</h3>
-                <span>Your Outfit Of The Day</span>
-                <p>Website yang menyediakan berbagai rekomendasi outfit</p>
-                <p>untuk menunjang penampilan terbaikmu setiap harinya.</p>
-                <br>
-                <div class="slider-btn">
-                    <a href="{{ route('about') }}"><button class="btn btn-3">Pelajari Lebih Lanjut</button></a>
+    <!-- awal slider -->
+    <section class="beranda" id="beranda">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner" data-aos="fade-up" data-aos-duration="1000">
+                <div class="carousel-item active" style="background-image: url('{{ asset('image/bnr.png') }}');">
+                    <div class="container-first">
+                        <div class="carousel-caption first d-md-block">
+                            <h3>#UROOTD</h3>
+                            <span>Your Outfit Of The Day</span>
+                            <p>Website yang menyediakan berbagai rekomendasi outfit</p>
+                            <p>untuk menunjang penampilan terbaikmu setiap harinya.</p>
+                            <br>
+                            @guest
+                            <div class="slider-btn">
+                                <a href="{{ route('about') }}"><button class="btn btn-3">Pelajari Lebih
+                                        Lanjut</button></a>
+                            </div>
+                            @endguest
+                            @auth
+                            <div class="slider-btn">
+                                <a href="{{ route('about') }}"><button class="btn btn-3">Pelajari Lebih
+                                        Lanjut</button></a>
+                            </div>
+                            @endauth
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item next" style="background-image: url('{{ asset('image/crsl1.jpg') }}');">
+                    <div class="container">
+                        <h5>#UROOTD</h5>
+                        <p class="txt">Rekomendasi pakaian setiap saat.</p>
+                        <br>
+                        @guest
+                        <div class="slider-btn">
+                            <a href="{{ route('login') }}" class="btn btn-1">Masuk</a>
+                            <a href="{{ route('regist') }}" class="btn btn-2">Daftar</a>
+                        </div>
+                        @endguest
+                        @auth
+                        <div class="slider-btn">
+                            <a href="{{ route('top') }}" class="btn btn-1">Teratas</a>
+                            <a href="{{ route('latest') }}" class="btn btn-2">Terbaru</a>
+                        </div>
+                        @endauth
+
+                    </div>
+                </div>
+                <div class="carousel-item next" style="background-image: url('{{ asset('image/crsl2.jpg') }}');">
+                    <div class="container">
+                        <h5>#UROOTD</h5>
+                        <p class="txt">Rekomendasi terkini untukmu.</p>
+                        <br>
+                        @auth
+                        <div class="slider-btn">
+                            <a href="{{ route('man') }}" class="btn btn-1">Pria</a>
+                            <a href="{{ route('woman') }}" class="btn btn-2">Wanita</a>
+                        </div>
+                        @endauth
+                        @guest
+                        <div class="slider-btn">
+                            <a href="{{ route('login') }}" class="btn btn-1">Masuk</a>
+                            <a href="{{ route('regist') }}" class="btn btn-2">Daftar</a>
+                        </div>
+                        @endguest
+                    </div>
+                </div>
+                <div class="carousel-item next" style="background-image: url('{{ asset('image/crsl3.jpg') }}');">
+                    <div class="container">
+                        <h5>#UROOTD</h5>
+                        <p class="txt">Beragam variasi pakaian.</p>
+                        <br>
+                        @guest
+                        <div class="slider-btn">
+                            <a href="{{ route('login') }}" class="btn btn-1">Masuk</a>
+                            <a href="{{ route('regist') }}" class="btn btn-2">Daftar</a>
+                        </div>
+                        @endguest
+                        @auth
+                        <div class="slider-btn">
+                            <a href="#" class="btn btn-1">Halo, {{ auth()->user()->name }}</a>
+                        </div>
+                        @endauth
+                    </div>
                 </div>
             </div>
-            <img src="{{ asset('image\bnr.png') }}" style="width: 100%; height: 100%;" data-aos="fade-up"
-                data-aos-duration="1000">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
-        <div class="myslide">
-            <center>
-                <div class="txt next">
-                    <h5>#UROOTD</h5>
-                    <p>Rekomendasi pakaian setiap saat.</p>
-                    <br>
-                    <div class="slider-btn">
-                        <a href="{{ route('login') }}" class="btn btn-1">Masuk</a>
-                        <a href="{{ route('regist') }}" class="btn btn-2">Daftar</a>
-                    </div>
-                </div>
-            </center>
-            <img src="{{ asset('image\crsl1.jpg') }}" style="width: 100%; height: 100%;">
-        </div>
-
-        <div class="myslide">
-            <center>
-                <div class="txt next">
-                    <h5>#UROOTD</h5>
-                    <p>Rekomendasi terkini untukmu.</p>
-                    <br>
-                    <div class="slider-btn">
-                        <a href="{{ route('login') }}" class="btn btn-1">Masuk</a>
-                        <a href="{{ route('regist') }}" class="btn btn-2">Daftar</a>
-                    </div>
-                </div>
-            </center>
-            <img src="{{ asset('image\crsl2.jpg') }}" style="width: 100%; height: 100%;">
-        </div>
-
-        <div class="myslide">
-            <center>
-                <div class="txt next">
-                    <h5>#UROOTD</h5>
-                    <p>Beragam variasi pakaian.</p>
-                    <br>
-                    <div class="slider-btn">
-                        <a href="{{ route('login') }}" class="btn btn-1">Masuk</a>
-                        <a href="{{ route('regist') }}" class="btn btn-2">Daftar</a>
-                    </div>
-                </div>
-            </center>
-            <img src="{{ asset('image\crsl3.jpg') }}" style="width: 100%; height: 100%;">
-        </div>
-
-        <!-- onclick js -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="nextt" onclick="plusSlides(1)">&#10095;</a>
-
-        <div class="dotsbox" style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-        </div>
-        <!-- /onclick js -->
-    </div>
-    <!-- akhir banner -->
     </section>
+    <!-- akhir slider -->
 
     <!-- awal kategori -->
     <section class="kategori" id="kategori">
