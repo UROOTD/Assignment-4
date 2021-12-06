@@ -15,6 +15,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     @include('scripts.script')
+    <link rel="stylesheet" href="stylebase.css">
 
     <title>UROOTD</title>
 </head>
@@ -41,12 +42,12 @@ $(function() {
 
 <body>
     <header>
-        <!-- Navbar -->
+        <!-- awal navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffeee3;">
             <div class="container">
                 <a class="navbar-brand" style="color:#f36b60;" href="{{ route('landing') }}">
                     <img src="{{ asset('image\logoss.png') }}" alt="" width="70" class="d-inline-block "
-                        id=beranda>UROOTD</a>
+                        id=beranda>#UROOTD</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -70,18 +71,31 @@ $(function() {
                             <a class="nav-link" href="{{ route('latest') }}">Terbaru</a>
                         </li>
                     </ul>
+                    @auth
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('login') }}">Masuk</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('regist') }}">Daftar</a>
+                            <a class="nav-link btn btn-3 text-white fs-5" href="#" role="button">
+                                Halo, {{ auth()->user()->name }}
+                            </a>
                         </li>
                     </ul>
                 </div>
+                @endauth
+                @guest
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active btn btn-2" aria-current="page" href="{{ route('login') }}">Masuk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active btn btn-3 text-white" aria-current="page"
+                            href="{{ route('regist') }}">Daftar</a>
+                    </li>
+                </ul>
+                @endguest
+            </div>
             </div>
         </nav>
-        <!-- Akhir Navbar -->
+        <!-- akhir navbar -->
     </header>
     <br />
     <br />
@@ -104,7 +118,7 @@ $(function() {
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[0]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[0]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -113,14 +127,14 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[0]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="Submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[1]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[1]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -129,7 +143,7 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[1]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
@@ -141,7 +155,7 @@ $(function() {
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[2]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[2]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -150,14 +164,14 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[2]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[3]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[3]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -166,7 +180,7 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[3]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
@@ -178,7 +192,7 @@ $(function() {
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[4]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[4]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -187,14 +201,14 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[4]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[5]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[5]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -203,7 +217,7 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[5]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
@@ -215,7 +229,7 @@ $(function() {
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[6]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[6]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -224,14 +238,14 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[6]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[7]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[7]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -240,7 +254,7 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[7]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
@@ -252,7 +266,7 @@ $(function() {
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[8]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[8]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -261,14 +275,14 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[8]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                         <img src="{{ $products[9]->image }}" class="card-img-top" alt="..." />
-                        <div class="fs-2 text-white">
+                        <div class="fs-4 text-white">
                             Rating : {{ $products[9]->rating }}
                         </div>
                         <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
@@ -277,10 +291,86 @@ $(function() {
                             <input type="hidden" name="product_id" value="{{ $products[9]->id }}">
                             <input type="hidden" name="rating" class="rating_class" value="">
                             <div class="starrr"></div> &nbsp;
-                            <input type="submit" class="button" value="submit" />
+                            <input type="submit" class="btn btn-2" value="Submit" />
                         </form>
                     </div>
                 </div>
+            </div>
+        </div>
+        <br>
+        <div class="container content">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="{{ $products[10]->image }}" class="card-img-top" alt="..." />
+                        <div class="fs-4 text-white">
+                            Rating : {{ $products[10]->rating }}
+                        </div>
+                        <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
+                            <br>
+                            @csrf
+                            <input type="hidden" name="product_id" value="{{ $products[8]->id }}">
+                            <input type="hidden" name="rating" class="rating_class" value="">
+                            <div class="starrr"></div> &nbsp;
+                            <input type="submit" class="btn btn-2" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="{{ $products[11]->image }}" class="card-img-top" alt="..." />
+                        <div class="fs-4 text-white">
+                            Rating : {{ $products[11]->rating }}
+                        </div>
+                        <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
+                            <br>
+                            @csrf
+                            <input type="hidden" name="product_id" value="{{ $products[9]->id }}">
+                            <input type="hidden" name="rating" class="rating_class" value="">
+                            <div class="starrr"></div> &nbsp;
+                            <input type="submit" class="btn btn-2" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container content">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="{{ $products[12]->image }}" class="card-img-top" alt="..." />
+                        <div class="fs-4 text-white">
+                            Rating : {{ $products[12]->rating }}
+                        </div>
+                        <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
+                            <br>
+                            @csrf
+                            <input type="hidden" name="product_id" value="{{ $products[8]->id }}">
+                            <input type="hidden" name="rating" class="rating_class" value="">
+                            <div class="starrr"></div> &nbsp;
+                            <input type="submit" class="btn btn-2" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="{{ $products[13]->image }}" class="card-img-top" alt="..." />
+                        <div class="fs-4 text-white">
+                            Rating : {{ $products[13]->rating }}
+                        </div>
+                        <form method="POST" action="{{ route('rating.store') }}" onsubmit="return saveRatings(this);">
+                            <br>
+                            @csrf
+                            <input type="hidden" name="product_id" value="{{ $products[9]->id }}">
+                            <input type="hidden" name="rating" class="rating_class" value="">
+                            <div class="starrr"></div> &nbsp;
+                            <input type="submit" class="btn btn-2" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Modal -->
