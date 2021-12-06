@@ -3,7 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, intial-scale=1.0" />
-  <link rel="shortcut icon" href="../img/logo.png" type="x-icon">
+  <link rel="shortcut icon" href="img/logo.png" type="x-icon">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
@@ -11,8 +11,6 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="stylesheet.css" />
   <link rel="stylesheet" href="starrr.css" />
-
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="starrr.js"></script>
@@ -75,14 +73,14 @@ while ($row = mysqli_fetch_object($result)) {
       <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffeee3;">
         <div class="container">
           <a class="navbar-brand" style="color:#f36b60;" href="../index.html">
-            <img src="../img/logoss.png" alt="" width="70" class="d-inline-block " id=beranda>UROOTD</a>
+            <img src="img/logoss.png" alt="" width="70" class="d-inline-block " id=beranda>#UROOTD</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="../index.html">Beranda</a>
+                <a class="nav-link" href="index.html">Beranda</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="woman.php">Wanita</a>
@@ -99,10 +97,10 @@ while ($row = mysqli_fetch_object($result)) {
             </ul>
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="login.html">Masuk</a>
+                <a class="nav-link active" aria-current="page" href="login.html"><button class="btn btn-1">Masuk</button></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="regist.html">Daftar</a>
+                <a class="nav-link active" aria-current="page" href="regist.html"><button class="btn btn-3">Daftar</button></a>
               </li>
             </ul>
           </div>
@@ -110,6 +108,7 @@ while ($row = mysqli_fetch_object($result)) {
       </nav>
       <!-- Akhir Navbar -->
     </header>
+    
     <br />
     <br />
     <br />
