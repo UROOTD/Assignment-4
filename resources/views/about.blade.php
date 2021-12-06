@@ -21,7 +21,7 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffeee3;">
             <div class="container">
                 <a class="navbar-brand" style="color:#f36b60;" href="{{ route('landing') }}">
-                    <img src="{{ asset('image\logoss.png') }}" class="brnd" alt="" width="70" class="d-inline-block "
+                    <img src="{{ asset('image\logoss.png') }}" alt="" width="70" class="d-inline-block "
                         id=beranda>#UROOTD</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -29,19 +29,44 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('landing') }}">Beranda</a>
                         </li>
                     </ul>
+                    @auth
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('login') }}">Masuk</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('regist') }}">Daftar</a>
+                            <div class="dropdown">
+                                <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Halo, {{ auth()->user()->name }}
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">
+                                            <form method="POST" action="{{ route('logout') }}">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button class="btn btn-dark" href="" style="float:left;">Logout</button>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
+                    @endauth
+                    @guest
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{{ route('login') }}"><button
+                                    class="btn btn-1">Masuk</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{{ route('regist') }}"><button
+                                    class="btn btn-3">Daftar</button></a>
+                        </li>
+                    </ul>
+                    @endguest
                 </div>
             </div>
         </nav>
