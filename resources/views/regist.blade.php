@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="{{ asset('image\logo.png') }}" type="x-icon">
     <title>UROOTD</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="stylesheett.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet" />
@@ -23,8 +23,8 @@
         <!-- awal navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffeee3;">
             <div class="container">
-                <a class="navbar-brand" style="color:#f36b60;" href="{{ route('landing') }}">
-                    <img src="{{ asset('image\logoss.png') }}" class="brnd" alt="" width="70" class="d-inline-block "
+                <a class="navbar-brand" style="color: #f36b60;" href="{{ route('landing') }}">
+                    <img src="{{ asset('image\logoss.png') }}" alt="" width="70" class="d-inline-block "
                         id=beranda>#UROOTD</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -32,14 +32,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('landing') }}">Beranda</a>
                         </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('login') }}">Masuk</a>
+                            <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
                         </li>
                     </ul>
                 </div>
@@ -47,11 +45,7 @@
         </nav>
         <!-- akhir navbar -->
     </header>
-    <section class="vh-100 bg-image" style="
-        background-size: cover;
-      ">
-        <br>
-        <br>
+    <section class="bg">
         <div class="mask d-flex align-items-center h-100 gradient-custom-3 ">
             <div class="container h-100">
                 <div class="row d-flex justify-content-center align-items-center h-100">
@@ -69,7 +63,8 @@
                                 </div>
                                 <br />
                                 <br />
-                                <h2 class="text-uppercase text-center mb-5" style="font-family: Poppins, sans-serif">
+                                <h2 class="text-uppercase text-center mb-5 text-white"
+                                    style="font-family: Poppins, sans-serif">
                                     <strong>Registrasi Akun </strong>
                                 </h2>
 
@@ -77,7 +72,7 @@
                                     @csrf
                                     <div class="form-outline mb-4">
                                         <input type="name" id="name" class="form-control form-control-lg" name="name" />
-                                        <label class="form-label" for="name"
+                                        <label class="form-label text-white" for="name"
                                             style="font-family: Poppins, sans-serif">Nama Kamu</label>
                                         @error('name')
                                         <div>
@@ -89,8 +84,8 @@
                                     <div class="form-outline mb-4">
                                         <input type="email" id="email" name="email"
                                             class="form-control form-control-lg" />
-                                        <label class="form-label" for="email"
-                                            style="font-family: Poppins, sans-serif">Email Kamu</label>
+                                        <label class="form-label text-white" for="email"
+                                            style="font-family: Poppins, sans-serif color:#ffff">Email Kamu</label>
                                         @error('email')
                                         <div>
                                             {{ $message }}
@@ -101,7 +96,7 @@
                                     <div class="form-outline mb-4">
                                         <input type="password" id="password" name="password"
                                             class="form-control form-control-lg" />
-                                        <label class="form-label" for="password"
+                                        <label class="form-label text-white" for="password"
                                             style="font-family: Poppins, sans-serif">Password</label>
                                         @error('password')
                                         <div>
@@ -113,7 +108,7 @@
                                     <div class="form-outline mb-4">
                                         <input type="password" id="form3Example4cdg" name="password_confirmation"
                                             class="form-control form-control-lg" />
-                                        <label class="form-label" for="form3Example4cdg"
+                                        <label class="form-label text-white" for="form3Example4cdg"
                                             style="font-family: Poppins, sans-serif">Konfirmasi Password</label>
                                     </div>
 
@@ -123,10 +118,10 @@
                                         </button>
                                     </div>
                                 </form>
-                                <p class="text-center text-muted mt-5 mb-0" style="font-family: Poppins, sans-serif">
+                                <p class="text-center mt-5 mb-0" style="font-family: Poppins, sans-serif; color:#ffff;">
                                     Sudah Punya Akun?
                                     <a href="{{ route('login') }}" class="fw-bold text-body"><u
-                                            style="font-family: Poppins, sans-serif">Login disini</u>
+                                            style="font-family: Poppins, sans-serif; color: #ffff;">Login disini</u>
                                 </p>
                             </div>
                         </div>
