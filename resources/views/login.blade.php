@@ -26,7 +26,7 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffeee3;">
             <div class="container">
                 <a class="navbar-brand" style="color:#f36b60;" href="{{ route('landing') }}">
-                    <img src="{{ asset('image\logoss.png') }}" class="brnd" alt="" width="70" class="d-inline-block "
+                    <img src="{{ asset('image\logoss.png') }}" alt="" width="70" class="d-inline-block "
                         id=beranda>#UROOTD</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -34,17 +34,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('landing') }}">Beranda</a>
-                        </li>
-                    </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('login') }}">Masuk</a>
+                            <a class="nav-link" href="#beranda">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('regist') }}">Daftar</a>
+                            <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
                         </li>
                     </ul>
                 </div>
@@ -55,7 +50,7 @@
     <br>
     <br>
 
-    <section class="vh-100 gradient-custom">
+    <section class="bgg">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
@@ -104,14 +99,16 @@
                                     <a href="{{ route('google.login') }}"
                                         class="text-white btn btn-lg btn-block btn-primary" type="submit"
                                         style="background-color: #000; font-size: 16px"><i
-                                            class="fab fa-google fa-lg">&nbsp;&nbsp;</i>Login With
+                                            class="fab fa-google fa-lg">&nbsp;&nbsp;</i>Login Dengan
                                         Google</a>
                                 </div>
                                 <br>
                                 <div>
-                                    <p class="mb-0">
-                                        Don't have an account?
-                                        <a href="{{ route('regist') }}" class="text-dark-50 fw-bold">Register Now</a>
+                                    <p class="mb-0" style="color:black">
+                                        Belum Punya Akun?
+                                        <a href="{{ route('regist') }}" class="text-dark-50 fw-bold"
+                                            style="color:black">Registrasi
+                                            Sekarang</a>
                                     </p>
                                 </div>
 
