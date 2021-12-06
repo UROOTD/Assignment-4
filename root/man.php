@@ -76,7 +76,7 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffeee3;">
       <div class="container">
-        <a class="navbar-brand" style="color:#f36b60;" href="../index.html">
+        <a class="navbar-brand" style="color:#f36b60;" href="../index.php">
           <img src="img/logoss.png" alt="" width="70" class="d-inline-block " id=beranda>#UROOTD</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +85,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Beranda</a>
+              <a class="nav-link" href="index.php">Beranda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="woman.php">Wanita</a>
