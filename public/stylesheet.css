@@ -17,78 +17,32 @@ body {
     color: #273c4b;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.slider {
+.beranda .carousel-item {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
     position: relative;
-    width: 100%;
-    background: #ffeee3;
-}
-
-.myslide {
-    height: 655px;
-    display: none;
-    overflow: hidden;
-}
-
-.prev,
-.nextt {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    font-size: 50px;
-    padding: 15px;
-    cursor: pointer;
-    color: #ffeee3;
-    transition: 0.1s;
-    user-select: none;
-}
-.prev:hover,
-.nextt:hover {
-    color: #ffeee3;
-}
-.nextt {
-    right: 0;
-}
-.dotsbox {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 20px;
-    cursor: pointer;
-}
-.dot {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border: 3px solid #ffeee3;
-    border-radius: 50%;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-.active,
-.dot:hover {
-    border-color: #ffeee3;
-}
-
-.txt {
-    bottom: 180px;
-    padding-right: 100px;
-    position: absolute;
-    color: #ffeee3;
-    top: 30%;
-    left: 15%;
     z-index: 1;
 }
 
-.first {
-    text-align: left;
-    max-width: 50rem;
+.next::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.3;
+}
+
+.beranda .carousel-item .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .first h3 {
@@ -111,20 +65,28 @@ body {
 }
 
 .next {
-    line-height: 25px;
-    padding-left: 230px;
+    padding-left: 100px;
 }
 
 .next h5 {
     font-size: 100px;
     font-weight: 700;
-    color: #fff;
 }
 
 .next p {
     font-size: 30px;
     top: 2rem;
-    color: #fff;
+}
+
+.next h5,
+p {
+    color: white;
+}
+
+.carousel-caption {
+    bottom: 180px;
+    padding-right: 100px;
+    text-align: left;
 }
 
 .btn {
@@ -147,48 +109,6 @@ body {
 
 .btn-3:hover {
     background: #f36b60;
-}
-
-@media screen and (max-width: 640px) {
-    .myslide {
-        height: 500px;
-    }
-    .txt {
-        line-height: 25px;
-        top: 35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .txt h3,
-    h5 {
-        font-size: 15px;
-    }
-    .txt p {
-        font-size: 10px;
-    }
-    .txt span {
-        font-size: 15px;
-    }
-
-    .txt next {
-        line-height: 25px;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .next {
-        padding-top: 50px;
-        padding-left: 50px;
-    }
-
-    .next h5 {
-        font-size: 30px;
-    }
-
-    .next p {
-        font-size: 20px;
-    }
 }
 
 .heading {
@@ -316,6 +236,15 @@ ul {
     color: #f36b60;
 }
 
+.about {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/bnr.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .about .content {
     max-width: 50rem;
 }
@@ -334,10 +263,30 @@ ul {
     line-height: 1.5;
 }
 
-@media screen and (max-width: 360px) {
-    .txt h3,
-    h5 {
+@media (max-width: 767px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+        display: none;
+    }
+    .beranda .carousel-item h5 {
+        font-size: 60px;
+    }
+    .beranda .carousel-item h3 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .beranda .carousel-item .txt {
         font-size: 20px;
-        margin-bottom: 20px;
+    }
+    .beranda .carousel-item p {
+        font-size: 17px;
+    }
+    .beranda .carousel-item span {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .carousel-caption {
+        padding-right: 0px;
+        text-align: center;
     }
 }
