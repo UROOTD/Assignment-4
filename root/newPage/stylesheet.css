@@ -18,6 +18,23 @@ body {
   color:#273c4b;
 }
 
+.btn{
+    background-color: #ff914d;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.btn-3{
+    background-color: #385973;
+}
+
+.btn-3:hover{
+    background: #f36b60;
+}
+
 .card {
   background-color: #273c4b;
   padding-right: 20px;
@@ -46,8 +63,22 @@ body {
     font-size: 1rem;
     color:#385973;
     border-top: .1rem solid rgba(0,0,0,.1);
+    background:#ffeee3;
 }
 
 .credit span{
     color:#f36b60;
+}
+
+.heading{
+  text-align: center;
+  font-size: 3rem;
+  color:#385973;
+  padding:1rem;
+  margin:2rem 0;
+  background:#ffeee3;
+}
+
+.heading span{
+  color:#f36b60;
 }
