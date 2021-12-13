@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#beranda">Beranda</a>
+                            <a class="nav-link" href="{{ route('landing') }}">Beranda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
