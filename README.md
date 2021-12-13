@@ -18,3 +18,11 @@ Kemajuan hingga saat ini adalah sudah terlaksananya segala pekerjaan pada sprint
 
 # Primary Features
 Memberikan rekomendasi outfit berdasarkan kategori 
+
+# Member Contribution Sprint 5
+- Ayu Andini MH             (Manual Book)
+- Agnes Yemima Simanjuntak  (User Testing)
+- Hana Ulfia                (Mockups)
+
+# Note 
+Pada sprint 5 tidak ada penambahan atau perbaikkan fitur sehingga tidak ada perubahan pada file terakhir di master branch
