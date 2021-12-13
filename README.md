@@ -15,3 +15,6 @@ Sebuah webite yang memberi rekomendasi *outfit* untuk menunjang kebutuhan penggu
 
 # Current Progress
 Kemajuan hingga saat ini adalah sudah terlaksananya segala pekerjaan pada sprint 1-4 yang rincian pembagian tugasnya dapat dilihat pada project github.
+
+# Primary Features
+Memberikan rekomendasi outfit berdasarkan kategori 
