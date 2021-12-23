@@ -10,11 +10,13 @@
 # URL to Live Hosting
 https://urootdd.000webhostapp.com/
 
-# Deskripsi Singkat
-Sebuah webite yang memberi rekomendasi *outfit* untuk menunjang kebutuhan pengguna.
+# Deskripsi
+*Project* ini dilatarbelakangi oleh pemahaman bahwa *fashion* dianggap penting dalam kehidupan sehari-hari karena dapat menggambarkan karakter diri.  Semakin hari banyak tren *fashion* yang beredar salah satunya #OOTD (Outfit Of The Day) di mana seseorang memadukan pakaian dan aksesori yang mereka gunakan sehari-hari maupun pada saat acara tertentu. Karena memadukan pakaian tidaklah mudah. Maka kelompok kami membuat sebuah inovasi yaitu #UROOTD, sebuah *website* yang memberi rekomendasi *outfit* untuk menunjang kebutuhan pengguna berdasarkan kategori.
+
+Website ini berfungsi membantu mempermudah pengguna dalam menentukan *Outfit Of The Day* kapanpun dan di manapun karena berbasis *website* sehingga dapat diakses melalui *smartphone* maupun komputer.
 
 # Current Progress
-Kemajuan hingga saat ini adalah sudah terlaksananya segala pekerjaan pada sprint 1-5 yang rincian pembagian tugasnya dapat dilihat pada project github.
+Kemajuan hingga saat ini adalah sudah terlaksananya segala pekerjaan pada sprint 1-6 yang rincian pembagian tugasnya dapat dilihat pada project github.
 
 # Primary Features
 Memberikan rekomendasi outfit berdasarkan kategori 
@@ -25,4 +27,4 @@ Memberikan rekomendasi outfit berdasarkan kategori
 - Hana Ulfia                (Mockups)
 
 # Note 
-Pada sprint 5 tidak ada penambahan atau perbaikkan fitur sehingga tidak ada perubahan pada file terakhir di master branch
+Pada sprint 6 tidak ada penambahan atau perbaikkan fitur sehingga tidak ada perubahan pada file terakhir di main branch
