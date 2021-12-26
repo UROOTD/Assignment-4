@@ -10,8 +10,11 @@
 
 # Client
 Nama		: Elis Kholisoh
+
 Status		: Mahasiswa Sistem Informasi Universitas Negeri Jakarta
+
 Alamat		: Jl. Cempaka 1, Cempaka Putih Barat, Kec. Cempaka Putih, Jakarta Pusat
+
 No. Telp	: 081284910504
 
 
@@ -35,4 +38,7 @@ Memberikan rekomendasi outfit berdasarkan kategori
 - Hana Ulfia                (Mockups)
 
 # Note 
-Pada sprint 6 tidak ada penambahan atau perbaikkan fitur sehingga tidak ada perubahan pada file terakhir di main branch
+Pada sprint 6 tidak ada penambahan atau perbaikkan fitur sehingga tidak ada perubahan pada file terakhir di main branch.
+
+# Link to the PDF User Manual
+https://github.com/UROOTD/Assignments/blob/main/doc/User%20Manual%20Book.pdf
