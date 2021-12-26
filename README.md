@@ -7,6 +7,14 @@
 
 - [Agnes Yemima Simanjuntak](https://github.com/LalaNJ) 1313620029
 
+
+# Client
+Nama		: Elis Kholisoh
+Status		: Mahasiswa Sistem Informasi Universitas Negeri Jakarta
+Alamat		: Jl. Cempaka 1, Cempaka Putih Barat, Kec. Cempaka Putih, Jakarta Pusat
+No. Telp	: 081284910504
+
+
 # URL to Live Hosting
 https://urootdd.000webhostapp.com/
 
