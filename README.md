@@ -32,11 +32,11 @@ https://youtu.be/TQLP8bCaKFM
 # Link to the PDF User Manual
 https://github.com/UROOTD/Assignments/blob/main/doc/User%20Manual%20Book.pdf
 
-# Current Progress
-Kemajuan hingga saat ini adalah sudah terlaksananya segala pekerjaan pada sprint 1-6 yang rincian pembagian tugasnya dapat dilihat pada project github.
-
 # Primary Features
-Memberikan rekomendasi outfit berdasarkan kategori 
+Memberikan rekomendasi outfit berdasarkan kategori
+
+# Current Progress
+Kemajuan hingga saat ini adalah sudah terlaksananya segala pekerjaan pada sprint 1-6 yang rincian pembagian tugasnya dapat dilihat pada project github. 
 
 # Member Contribution Sprint 5
 - Ayu Andini MH             (Manual Book)
