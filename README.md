@@ -11,7 +11,7 @@
 # Client
 Nama		: Elis Kholisoh
 
-Status		: Mahasiswa Sistem Informasi Universitas Negeri Jakarta
+Status		: Mahasiswa Sistem dan Teknologi Informasi Universitas Negeri Jakarta
 
 Alamat		: Jl. Cempaka 1, Cempaka Putih Barat, Kec. Cempaka Putih, Jakarta Pusat
 
