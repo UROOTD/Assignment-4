@@ -26,10 +26,10 @@ Website ini berfungsi membantu mempermudah pengguna dalam menentukan *Outfit Of 
 # URL to Live Hosting
 https://urootdd.000webhostapp.com/
 
-# Link to Video Demonstrasi Aplikasi
+# Link to Web Demonstration Video
 https://youtu.be/TQLP8bCaKFM
 
-# Link to the PDF User Manual
+# Link to PDF User Manual
 https://github.com/UROOTD/Assignments/blob/main/doc/User%20Manual%20Book.pdf
 
 # Primary Features
