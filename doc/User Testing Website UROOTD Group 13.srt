@@ -1,0 +1,1528 @@
+﻿1
+00:00:06,480 --> 00:00:09,500
+Assalamualaikum warahmatullahi wabarakatuh.
+
+2
+00:00:09,780 --> 00:00:11,760
+Selamat malam teman-teman semuanya.
+
+3
+00:00:13,700 --> 00:00:15,880
+Waalaikumsalam warahmatullahi wabarakatuh.
+
+4
+00:00:15,900 --> 00:00:16,660
+Malam.
+
+5
+00:00:21,660 --> 00:00:25,720
+Sebelumnya kami ucapkan terima kasih kepada Elis, selaku klien
+
+6
+00:00:25,900 --> 00:00:28,740
+yang sudah menyempatkan hadir pada pertemuan malam ini.
+
+7
+00:00:29,560 --> 00:00:32,700
+Nah, sebelumnya kami mau nanya dulu nih.
+
+8
+00:00:32,700 --> 00:00:34,700
+Untuk Elis, apa kabar Elis?
+
+9
+00:00:37,320 --> 00:00:39,660
+Iya, halo. Baik kabarnya.
+
+10
+00:00:40,640 --> 00:00:43,740
+Elis sekarang lagi sibuk apa aja nih kesibukannya?
+
+11
+00:00:45,320 --> 00:00:47,240
+Kayak mahasiswa biasa aja.
+
+12
+00:00:47,240 --> 00:00:49,940
+Lagi ini ya, <i>hectic</i> UAS.
+
+13
+00:00:49,940 --> 00:00:52,520
+Kan belum pada kelar UASnya.
+
+14
+00:00:53,720 --> 00:00:56,580
+Wah makasih banyak nih udah nyempetin waktunya.
+
+15
+00:00:56,580 --> 00:01:01,560
+Lagi UAS padahal, ya. Maaf nih kita ngerepotin terus nih sering ngajak <i>meet</i>, ya Elis.
+
+16
+00:01:02,200 --> 00:01:03,580
+Kalem kalem.
+
+17
+00:01:05,220 --> 00:01:11,460
+Oke. Jadi tujuan kita <i>meet</i> itu kali ini kita bakal ngadain <i>user testing.</i>
+
+18
+00:01:11,460 --> 00:01:16,060
+Jadi, kerja sama kita dari awal itu kan membuat sebuah <i>website.</i>
+
+19
+00:01:16,060 --> 00:01:18,060
+Nah, sekarang <i>website</i>-nya udah jadi.
+
+20
+00:01:18,060 --> 00:01:21,200
+Nah, kita pengen lihat nih respons dari Elis itu gimana.
+
+21
+00:01:21,500 --> 00:01:27,800
+Nah, untuk <i>user testing</i> kali ini Elis bakal nyobain <i>website</i>-nya
+
+22
+00:01:28,040 --> 00:01:33,260
+sesuai dari <i>link</i> yang sudah kita kasih. Nah, di situ Elis bisa cobain dari laptop dan juga dari HP.
+
+23
+00:01:33,260 --> 00:01:39,340
+Jadi kan di sini kita udah responsif <i>website</i>-nya. Jadi sekalian kita cek di saat ini juga.
+
+24
+00:01:39,560 --> 00:01:42,820
+Nah, untuk penilaiannya Elis bisa nilai dari awal.
+
+25
+00:01:42,820 --> 00:01:46,600
+ Dari tampilan awalnya sampai ke fitur-fitur yang ada di dalamnya.
+
+26
+00:01:47,020 --> 00:01:52,860
+Nah, jadi setelah ini kita akan serahkan ke Elis untuk <i>sharescreen</i> gitu.
+
+27
+00:01:52,860 --> 00:01:58,880
+Jadi, Elis bisa mulai coba aplikasinya, lalu beri tanggapannya kepada kami. Begitu.
+
+28
+00:01:59,280 --> 00:02:00,980
+Apakah Elis sudah siap?
+
+29
+00:02:03,640 --> 00:02:04,700
+Oke.
+
+30
+00:02:05,920 --> 00:02:08,960
+Langsung di-<i>testing</i> aja ya?
+
+31
+00:02:09,780 --> 00:02:15,760
+Iya. Kalau ada tanggapan, pertanyaan boleh langsung ditanyain aja, ya Elis pada saat nyoba <i>website</i>-nya.
+
+32
+00:02:16,000 --> 00:02:18,440
+Sebelumnya <i>link</i>-nya sudah ada kan, ya Elis?
+
+33
+00:02:19,220 --> 00:02:20,140
+Aman aman.
+
+34
+00:02:49,740 --> 00:02:51,060
+Udah masuk belum, <i>guys</i>?
+
+35
+00:02:53,540 --> 00:02:58,240
+Di aku sih udah. Tapi, belum tayang tampilannya.
+
+36
+00:02:58,240 --> 00:02:59,420
+Kalau yang di temen-temen gimana?
+
+37
+00:03:00,800 --> 00:03:02,020
+Oh, ini udah udah.
+
+38
+00:03:05,240 --> 00:03:06,360
+Oke.
+
+39
+00:03:08,120 --> 00:03:11,620
+Ini kemarin dikasih <i>link website</i>-nya, ya.
+
+40
+00:03:11,940 --> 00:03:15,520
+Terus, untuk tampilan berandanya.
+
+41
+00:03:15,520 --> 00:03:16,580
+Ini berandanya kan ya?
+
+42
+00:03:18,160 --> 00:03:20,760
+Kalau dari aku pribadi
+
+43
+00:03:21,580 --> 00:03:30,920
+ini udah sesuai sama yang apa? Yang <i>meeting</i> terakhir tentang <i>mockup</i>-nya mau kayak gimana gitu ya.
+
+44
+00:03:31,160 --> 00:03:38,440
+Kebetulan aku milih <i>mockup</i>-nya yang kayak gini dan direalisasikannya gak jauh beda.
+
+45
+00:03:38,600 --> 00:03:46,440
+Bahkan, hampir sama gitu sama <i>mockup</i> yang udah dipilih waktu terakhir <i>meeting</i>.
+
+46
+00:03:46,440 --> 00:03:51,720
+Terus, di beranda ini tampilannya langsung ada <i>slidebar</i>.
+
+47
+00:03:53,540 --> 00:03:55,520
+Dan pemilihan apa ya
+
+48
+00:03:57,480 --> 00:04:02,740
+foto-fotonya nih untuk <i>cover</i>-nya udah bagus banget minimalis.
+
+49
+00:04:02,740 --> 00:04:04,220
+Enggak yang ...
+
+50
+00:04:05,620 --> 00:04:11,660
+Enggak yang menusuk mata gitu. Jadi, enak dilihat gitu.
+
+51
+00:04:12,660 --> 00:04:19,440
+Terus sesuai juga sama tema dari <i>website</i>-nya gitu tentang <i>fashion</i> ya.
+
+52
+00:04:20,880 --> 00:04:25,220
+Dan ini juga udah responsif tuh kita ngeklik-klik juga.
+
+53
+00:04:26,860 --> 00:04:31,360
+Terus turun ke ini di beranda ini mungkin ini ya, apa ...
+
+54
+00:04:31,920 --> 00:04:33,360
+rangkuman ...
+
+55
+00:04:33,580 --> 00:04:35,500
+dari <i>website</i>-nya gitu, ya.
+
+56
+00:04:36,780 --> 00:04:38,960
+Ada rekomendasi.
+
+57
+00:04:39,280 --> 00:04:42,540
+Terus ke kontaknya.
+
+58
+00:04:43,480 --> 00:04:46,800
+Coba aku mau cek ini ya mungkin ya.
+
+59
+00:04:47,680 --> 00:04:51,160
+Karena aku baru mungkin langsung ke daftar, ya?
+
+60
+00:04:53,380 --> 00:04:56,040
+Iya. Kalau Elis belum daftar, bisa daftar dulu.
+
+61
+00:04:57,680 --> 00:04:58,820
+Oh, ya. Oke.
+
+62
+00:05:06,780 --> 00:05:10,800
+Nah, tampilan daftarnya udah <i>user friendly</i> banget.
+
+63
+00:05:10,800 --> 00:05:12,160
+Kayak apa,ya?
+
+64
+00:05:12,160 --> 00:05:14,160
+Kayak daftar biasa gitu.
+
+65
+00:05:14,960 --> 00:05:16,340
+Udah cakep.
+
+66
+00:05:34,740 --> 00:05:36,480
+Untuk <i>password</i>-nya bebas, ya?
+
+67
+00:05:39,260 --> 00:05:40,120
+Bebas, kok.
+
+68
+00:05:42,540 --> 00:05:43,580
+Oke.
+
+69
+00:05:43,580 --> 00:05:45,840
+Terus, coba kita daftar.
+
+70
+00:05:50,140 --> 00:05:52,180
+Nah, udah kesimpan.
+
+71
+00:05:56,240 --> 00:05:59,240
+Lanjut ke <i>login</i>.
+
+72
+00:06:07,240 --> 00:06:10,880
+Oke jadi berfungsi ya ininya
+
+73
+00:06:12,740 --> 00:06:15,440
+menu masuk dan daftranya.
+
+74
+00:06:15,740 --> 00:06:18,720
+Kalau misalnya udah daftar berarti tampilannya tuh ...
+
+75
+00:06:20,300 --> 00:06:22,340
+udah jadi ada ...
+
+76
+00:06:24,600 --> 00:06:27,300
+langsung ke akun kita gitu.
+Tersambung.
+
+77
+00:06:28,700 --> 00:06:33,580
+Oke di beranda udah ... udah <i>good</i>, udah cakep, bagus banget.
+
+78
+00:06:33,860 --> 00:06:35,140
+Udah semua ...
+
+79
+00:06:36,040 --> 00:06:37,340
+Emm ... apa ...
+
+80
+00:06:39,100 --> 00:06:43,680
+ininya kategori dan lain-lainnya udah berfungsi, udah bisa digunakan dengan baik.
+
+81
+00:06:43,680 --> 00:06:49,680
+Terus, ke menu atau <i>icon</i> tentang kami.
+
+82
+00:06:50,480 --> 00:06:54,640
+Oke, di sini ada pengertian #UROOTD-nya.
+
+83
+00:06:54,640 --> 00:06:57,740
+Terus bagaimana cara bekerja.
+
+84
+00:06:58,760 --> 00:07:02,680
+Dan mengapa harus pilih #UROOTD.
+
+85
+00:07:04,440 --> 00:07:05,960
+Ini ... ini bagus sih.
+
+86
+00:07:05,960 --> 00:07:10,940
+Karena kan biar <i>user</i>-nya tahu <i>website</i> ini tentang apa.
+
+87
+00:07:10,940 --> 00:07:12,460
+Cara kerjanya gimana.
+
+88
+00:07:12,460 --> 00:07:17,880
+Terus mungkin kelebihannya kenapa gitu harus pilih <i>website</i> ini.
+
+89
+00:07:26,440 --> 00:07:30,360
+Nah, lanjut lagi ke kategori.
+
+90
+00:07:36,500 --> 00:07:36,980
+Oke.
+
+91
+00:07:37,680 --> 00:07:39,020
+Di kategori ini ...
+
+92
+00:07:40,940 --> 00:07:42,500
+inti dari <i>website</i> ini, ya?
+
+93
+00:07:42,760 --> 00:07:50,400
+Jadi, kita bisa lihat rekomendasi OOTD apa yang sesuai sama kita.
+
+94
+00:07:51,080 --> 00:07:52,400
+Di sini ada ...
+
+95
+00:07:52,580 --> 00:07:56,160
+sesuai <i>gender</i>, ada buat pria ada buat wanita.
+
+96
+00:07:56,780 --> 00:07:59,600
+Terus ada terbaru dan teratas.
+
+97
+00:07:59,600 --> 00:08:05,860
+Mungkin kalau terbaru itu yang ... rekomendasi terbasu yang di-<i>input</i> ke <i>website</i> ini mungkin, ya?
+
+98
+00:08:05,860 --> 00:08:09,680
+Terus kalau yang teratas yang paling favorit, ya?
+
+99
+00:08:10,840 --> 00:08:12,640
+Coba aku buka yang ...
+
+100
+00:08:13,200 --> 00:08:14,680
+Wanita dulu.
+
+101
+00:08:14,680 --> 00:08:15,860
+Kategori wanita.
+
+102
+00:08:24,740 --> 00:08:26,740
+Oke. Pilihannya banyak.
+
+103
+00:08:26,740 --> 00:08:28,860
+Dan lengkap juga, ya.
+
+104
+00:08:28,860 --> 00:08:29,820
+Bukan ...
+
+105
+00:08:30,380 --> 00:08:33,320
+Bukan sekadar pakaian aja gitu.
+
+106
+00:08:33,320 --> 00:08:34,640
+Tapi ada aksesorisnya.
+
+107
+00:08:34,640 --> 00:08:36,940
+Ada tas, sepatu.
+
+108
+00:08:42,880 --> 00:08:45,700
+Pilihannya juga kekinian banget.
+
+109
+00:08:45,700 --> 00:08:49,660
+Maksudnya, sesuai gitu sama sasarannya buat mahasiswa gitu.
+
+110
+00:08:54,220 --> 00:09:01,080
+Ini kalau kita udah tertarik misalkan sama <i>look</i> atau OOTD yang ini
+
+111
+00:09:01,520 --> 00:09:06,800
+bisa langsung kasih ini, ya? Penilaian atau <i>rating</i> gitu, ya?
+
+112
+00:09:08,500 --> 00:09:09,520
+Iya, betul Elis.
+
+113
+00:09:09,520 --> 00:09:15,220
+Jadi, nanti penilaiannya itu bakal jadi tolak ukur buat yang teratas itu kan.
+
+114
+00:09:15,220 --> 00:09:19,820
+Jadi, paling tinggi <i>rating</i> dia nanti akan di, ada di bagian teratas gitu.
+
+115
+00:09:21,820 --> 00:09:24,860
+Oke. Coba aku kasih <i>rate</i>.
+
+116
+00:09:32,680 --> 00:09:35,080
+Sukses. Terima kasih <i>rating</i>-nya.
+
+117
+00:09:35,080 --> 00:09:36,220
+Udah responsif.
+
+118
+00:09:36,780 --> 00:09:39,940
+Ini <i>rating</i> aku bakal masuk ke teratas gitu,ya?
+
+119
+00:09:41,660 --> 00:09:43,080
+Coba aku cek dulu, ya.
+
+120
+00:09:43,640 --> 00:09:44,600
+Iya bisa dicek.
+
+121
+00:09:44,600 --> 00:09:49,500
+Kalau misalnya ternyata ada yang <i>rating</i>-nya lima, ya berarti yang paling atas lima dulu.
+
+122
+00:09:49,500 --> 00:09:51,120
+Jadi, dia udah terurut gitu.
+
+123
+00:09:52,500 --> 00:09:53,660
+Ohh.
+
+124
+00:10:03,140 --> 00:10:04,180
+Iya, benar.
+
+125
+00:10:04,700 --> 00:10:08,340
+Lima ... terus sampai ke <i>rating</i> terakhir mungkin, ya?
+
+126
+00:10:12,880 --> 00:10:15,880
+Oh, iya betul sih tadi aku <i>rating</i> empat, kan.
+
+127
+00:10:15,880 --> 00:10:22,360
+Terus aku <i>submit</i> dan ter-<i>submit</i> ke teratas ini tadi fitur yang teratas.
+
+128
+00:10:24,760 --> 00:10:29,020
+Oke, jadi udah sedikit paham Jadi cara kerjanya gitu.
+
+129
+00:10:31,220 --> 00:10:33,620
+Aku mau cek yang di pria.
+
+130
+00:10:38,200 --> 00:10:42,160
+Sama. Lengkap juga untuk pilihan prianya.
+
+131
+00:10:42,160 --> 00:10:43,440
+OOTD-nya.
+
+132
+00:10:45,120 --> 00:10:51,080
+Dan bahkan ada topi, kaos kakinya juga, masker.
+
+133
+00:10:53,520 --> 00:10:55,180
+Aku coba ...
+
+134
+00:10:58,820 --> 00:10:59,920
+<i>rating</i> ...
+
+135
+00:11:00,540 --> 00:11:02,460
+Mungkin aku <i>rating</i> yang nol aja, ya?
+
+136
+00:11:02,460 --> 00:11:05,380
+Ada ngga ini ... yang belum ke-<i>rating</i> gitu?
+
+137
+00:11:05,760 --> 00:11:06,580
+Oke.
+
+138
+00:11:11,720 --> 00:11:12,760
+Oke ini deh.
+
+139
+00:11:12,760 --> 00:11:14,340
+Tadinya <i>rating</i>-nya tiga, ya?
+
+140
+00:11:14,340 --> 00:11:15,660
+Coba aku <i>rating</i> empat.
+
+141
+00:11:16,680 --> 00:11:17,660
+Empat.
+
+142
+00:11:23,600 --> 00:11:25,440
+Oke. Sukses.
+
+143
+00:11:33,520 --> 00:11:36,060
+Apakah dia masuk ke ini?
+
+144
+00:11:36,860 --> 00:11:38,920
+Yang tadi udah di-<i>rating</i>?
+
+145
+00:11:40,360 --> 00:11:41,440
+Oke, udah masuk.
+
+146
+00:11:41,440 --> 00:11:43,540
+Tadi aku <i>rating</i> yang ini, terus udah masuk.
+
+147
+00:11:44,600 --> 00:11:47,800
+Sekarang yang terakhir ini yang di kategori terbaru.
+
+148
+00:11:48,860 --> 00:11:50,760
+Oh, ini ...
+
+149
+00:11:51,480 --> 00:11:52,240
+ini ya ...
+
+150
+00:11:52,600 --> 00:11:54,440
+<i>gender</i>, semua <i>gender</i> gitu, ya?
+
+151
+00:11:57,500 --> 00:11:58,280
+Iya, Elis.
+
+152
+00:11:58,280 --> 00:12:01,580
+Jadi itu berarti dia paling baru di-<i>input</i> gitu.
+
+153
+00:12:03,680 --> 00:12:05,080
+Oke.
+
+154
+00:12:09,380 --> 00:12:14,480
+Baik. Ini udah berfungsi semua kategorinya.
+
+155
+00:12:14,480 --> 00:12:22,120
+Tadi aku udah coba dari yang kategori wanita, pria, teratas, sama terbaru.
+
+156
+00:12:22,120 --> 00:12:25,700
+Semuanya udah ke-<i>manage</i> dengan baik.
+
+157
+00:12:25,700 --> 00:12:29,060
+Udah ke-<i>input</i> juga tadi <i>rating</i>-nya yang aku udah kasih.
+
+158
+00:12:33,200 --> 00:12:35,980
+Terus ... lanjut ke ini, ya?
+
+159
+00:12:35,980 --> 00:12:37,100
+Kontak.
+
+160
+00:12:39,460 --> 00:12:41,740
+Oke di kontak ada akses cepat.
+
+161
+00:12:42,380 --> 00:12:45,260
+Ini ... kalau mau ke beranda, ya?
+
+162
+00:12:46,560 --> 00:12:50,620
+Ada kontaknya ada gmail. Ada nomor telepon.
+
+163
+00:12:56,860 --> 00:12:59,920
+Kalau mau akses dari sini juga bisa kali, ya?
+
+164
+00:12:59,920 --> 00:13:02,600
+Kalau misal, kalau misal klik kategori gitu.
+
+165
+00:13:03,300 --> 00:13:04,600
+Biar cepet.
+
+166
+00:13:04,940 --> 00:13:06,660
+Di <i>slidebar</i> nih.
+
+167
+00:13:07,300 --> 00:13:13,180
+Iya. Jadi, kalau udah udah <i>login</i> nanti bakal berubah tulisan-tulisan yang di depan bisa akses cepat juga.
+
+168
+00:13:14,160 --> 00:13:15,360
+Oke.
+
+169
+00:13:19,640 --> 00:13:22,740
+Ini, udah. Kalau mau <i>logout</i> udah ada juga.
+
+170
+00:13:23,740 --> 00:13:27,180
+Jadi bedanya kalau misalkan kita ngga <i>login</i>
+
+171
+00:13:27,180 --> 00:13:30,120
+kita ngga bisa dapet ini, ya?
+
+172
+00:13:31,120 --> 00:13:33,260
+Akses cepat ini kayak tadi gini, ya?
+
+173
+00:13:34,360 --> 00:13:36,960
+Terus gabisa <i>submit</i>, ya?
+
+174
+00:13:37,160 --> 00:13:38,640
+Kalau belum <i>login</i>?
+
+175
+00:13:49,800 --> 00:13:55,380
+Dari aku buat tampilan webnya udah bener-bener terealisasikan gitu, ya.
+
+176
+00:13:55,380 --> 00:13:59,720
+Yang dari awal banget pengen bikin <i>website</i> tentang OOTD.
+
+177
+00:13:59,720 --> 00:14:06,740
+Kemudian, kita beberapa kali <i>meet</i> terus milih <i>mockup</i>-nya seperti apa.
+
+178
+00:14:07,860 --> 00:14:15,400
+<i>Planning user</i>-nya sampai mendapatkan <i>output</i> OOTD-nya juga udah terealisasikan.
+
+179
+00:14:19,740 --> 00:14:21,240
+Ini ...
+
+180
+00:14:22,760 --> 00:14:24,280
+Jadi, alurnya itu ...
+
+181
+00:14:24,600 --> 00:14:26,680
+Si <i>user login</i>.
+
+182
+00:14:26,680 --> 00:14:31,140
+Terus, lihat-lihat kategori gitu.
+
+183
+00:14:31,420 --> 00:14:36,200
+Kalau udah cocok sama kategorinya terus dia <i>submit</i>.
+
+184
+00:14:36,200 --> 00:14:39,320
+Udah nge-<i>rating</i>, udah sampai, sampai <i>rating</i> aja, ya?
+
+185
+00:14:43,620 --> 00:14:45,400
+Iya. Baru sampai situ, Elis.
+
+186
+00:14:46,980 --> 00:14:47,640
+Oh, iya.
+
+187
+00:14:47,640 --> 00:14:50,360
+Sebenarnya udah sesuai sama tujuan awal sih.
+
+188
+00:14:50,540 --> 00:14:55,520
+Karena kan <i>output</i>-nya itu lingkupnya kayak cuma rekomendasi, ya?
+
+189
+00:14:56,020 --> 00:14:58,960
+Engga yang terlalu berlebit ke mana-mana gitu.
+
+190
+00:14:58,960 --> 00:15:00,640
+Jadi, menurut aku udah ...
+
+191
+00:15:01,440 --> 00:15:05,160
+Udah sesuai sama tujuan awal.
+
+192
+00:15:06,240 --> 00:15:13,480
+Untuk cari rekomendasi apa yang sesuai dengan kategori atau selera kita.
+
+193
+00:15:14,020 --> 00:15:16,260
+Terus tadi juga tampilan dari si ...
+
+194
+00:15:16,940 --> 00:15:23,520
+<i>outfit-outfit</i> yang disajikan atau ditampilkan juga udah <i>trendy</i> banget gitu.
+
+195
+00:15:26,500 --> 00:15:29,620
+Oh, iya itu yang "internal server error" maaf ya, Elis.
+
+196
+00:15:29,620 --> 00:15:32,300
+Karena, ya, dari <i>hosting</i>-nya sendiri.
+
+197
+00:15:33,400 --> 00:15:35,100
+Oh, iya. Paham paham.
+
+198
+00:15:37,360 --> 00:15:40,000
+Soalnya emang bayar <i>hosting</i> juga agak ... 
+
+199
+00:15:40,340 --> 00:15:42,000
+<i>budget</i>, ya.
+Hehe.
+
+200
+00:15:42,400 --> 00:15:44,000
+Kalau mau yang bayar.
+
+201
+00:15:45,820 --> 00:15:47,460
+Yang penting <i>website</i>-nya jalan.
+
+202
+00:15:47,460 --> 00:15:48,400
+ini jalan kok.
+
+203
+00:15:48,400 --> 00:15:50,980
+Cuman kalau emang ada apa tadi?
+
+204
+00:15:51,120 --> 00:15:51,980
+<i>Error</i> gitu.
+
+205
+00:15:51,980 --> 00:15:54,140
+Tinggal di-<i>refresh</i> aja tadi udah langsung jalan.
+
+206
+00:15:58,360 --> 00:16:01,520
+Mungkin dari aku untuk <i>testing</i>-nya udah cukup.
+
+207
+00:16:01,520 --> 00:16:03,020
+Ini udah berjalan semua.
+
+208
+00:16:03,020 --> 00:16:04,460
+Udah responsif juga.
+
+209
+00:16:04,460 --> 00:16:07,760
+Terus udah sesuai sama <i>mockup</i>. Sama tujuan awal.
+
+210
+00:16:07,760 --> 00:16:09,380
+Dan udah ...
+
+211
+00:16:09,380 --> 00:16:16,540
+Ya intinya kerealisasikan gitu <i>website</i> yang mau aku wujudkan gitu.
+
+212
+00:16:16,540 --> 00:16:20,140
+Atau aku pengen gitu dari temen-temen.
+
+213
+00:16:22,320 --> 00:16:24,500
+Oke aku <i>stop share</i> aja mungkin, ya?
+
+214
+00:16:25,160 --> 00:16:25,860
+Bagaimana?
+
+215
+00:16:26,260 --> 00:16:29,180
+Elis tadi kan <i>login</i>-nya bisa pakai Google juga nih.
+
+216
+00:16:29,180 --> 00:16:32,220
+Elis udah pernah coba belum nih <i>login</i>-nya pakai Google?
+
+217
+00:16:32,900 --> 00:16:34,440
+Oh, iya.
+
+218
+00:16:34,440 --> 00:16:35,500
+Coba, ya.
+
+219
+00:16:36,080 --> 00:16:37,500
+Kita <i>logout</i> lagi.
+
+220
+00:16:46,940 --> 00:16:47,660
+Oh.
+
+221
+00:16:48,280 --> 00:16:49,960
+Oh, <i>login login</i>. Masuk.
+
+222
+00:16:54,380 --> 00:16:56,920
+Dan ini responsnya juga cepet gitu.
+
+223
+00:16:56,920 --> 00:17:01,180
+Engga, engga yang nge-<i>lag</i> parah <i>website</i>-nya.
+
+224
+00:17:01,420 --> 00:17:03,600
+Dari satu fitur ke fitur lain.
+
+225
+00:17:17,500 --> 00:17:20,900
+Hmm ... pakai Google, ya dicoba.
+
+226
+00:18:13,800 --> 00:18:15,900
+Iya maaf, Elis.
+
+227
+00:18:16,080 --> 00:18:20,240
+Kayaknya kalau <i>login</i> dari Google itu akun yang beda.
+
+228
+00:18:21,180 --> 00:18:22,840
+- dari yang didaftarin
+- Oh harus akun yang beda, ya?
+
+229
+00:18:22,840 --> 00:18:24,060
+Yang belum kedaftar?
+
+230
+00:18:25,380 --> 00:18:26,640
+Oke oke.
+
+231
+00:18:41,500 --> 00:18:43,620
+Oh, iya. Betul. Udah berjalan tuh.
+
+232
+00:18:43,620 --> 00:18:47,400
+Jadi, ga jalannya karena akunnya udah kepake, ya?
+
+233
+00:18:49,600 --> 00:18:50,660
+Iya.
+
+234
+00:18:57,160 --> 00:18:58,720
+Oke. <i>Good job, guys</i>.
+
+235
+00:18:58,720 --> 00:19:01,760
+Udah semua mungkin, ya? Buat <i>testing</i>-nya udah aku ...
+
+236
+00:19:03,360 --> 00:19:04,740
+cobain semua.
+
+237
+00:19:04,740 --> 00:19:07,000
+Udah di-<i>review</i> juga.
+
+238
+00:19:07,000 --> 00:19:09,240
+Dan hasilnya memuaskan.
+
+239
+00:19:12,520 --> 00:19:13,440
+Oh, iya, Elis.
+
+240
+00:19:13,440 --> 00:19:18,020
+Kan ini <i>website</i>-nya juga kita buat di untuk ini, tampilan di HP
+
+241
+00:19:18,020 --> 00:19:20,900
+Jadi, mungkin Elis bisa nyobain di HP juga.
+
+242
+00:19:22,000 --> 00:19:23,620
+Oh, oke.
+
+243
+00:19:23,620 --> 00:19:25,420
+Bentar, ya. <i>Join</i> dulu, ya.
+
+244
+00:19:26,240 --> 00:19:27,260
+Oke.
+
+245
+00:20:31,740 --> 00:20:34,760
+Halo?
+Aduh, bentar.
+
+246
+00:20:43,880 --> 00:20:45,740
+Langsung <i>sharescreen</i> aja, ya?
+
+247
+00:20:46,720 --> 00:20:48,240
+Iya. Silakan, Elis.
+
+248
+00:21:07,340 --> 00:21:08,620
+Udah ada belum, <i>guys</i>?
+
+249
+00:21:12,720 --> 00:21:14,380
+Udah masuk <i>sharescreen</i>-nya.
+
+250
+00:21:14,720 --> 00:21:15,520
+Oke.
+
+251
+00:21:16,060 --> 00:21:19,440
+Ini tampilan di <i>mobile</i>, ya. Di HP.
+
+252
+00:21:20,860 --> 00:21:23,280
+Iya. Gambarnya lemot, ya? Apa lancar?
+
+253
+00:21:24,100 --> 00:21:24,840
+Udah nih.
+
+254
+00:21:25,160 --> 00:21:26,940
+Udah, ya lancar. Alhamdulillah.
+
+255
+00:21:28,120 --> 00:21:29,520
+Oke, aku coba dulu.
+
+256
+00:21:29,880 --> 00:21:32,340
+Di sini ada navigasinya, ya.
+
+257
+00:21:32,420 --> 00:21:38,680
+Ada beranda, tentang kami, kategori, kontak. Sama kayak tadi.
+
+258
+00:21:40,440 --> 00:21:42,660
+Terus ada <i>slidebar</i>-nya juga.
+
+259
+00:21:44,340 --> 00:21:46,900
+Masuk ke rekomendasi.
+
+260
+00:21:51,840 --> 00:21:53,720
+Terus ke kontak kami.
+
+261
+00:21:53,720 --> 00:22:00,040
+Kurang lebih engga ada yang, ini ya ga da yang berubah. Sama semua.
+
+262
+00:22:00,040 --> 00:22:03,420
+Tampilan di <i>desktop</i> atau di <i>mobile</i> gitu.
+
+263
+00:22:04,020 --> 00:22:09,040
+Terus engga, engga bikin pusing juga sih tampilannya.
+
+264
+00:22:09,040 --> 00:22:13,060
+Masih <i>friendly</i> gitu buat <i>user</i> yang baru-baru.
+
+265
+00:22:14,860 --> 00:22:18,420
+Coba. Aku coba. Aku cobain bentar, ya.
+
+266
+00:22:21,340 --> 00:22:22,760
+Iya silakan, Elis.
+
+267
+00:22:27,560 --> 00:22:28,880
+Oke.
+
+268
+00:22:29,260 --> 00:22:31,780
+Dari ininya juga sama kok tuh.
+
+269
+00:22:33,420 --> 00:22:34,280
+Tampil.
+
+270
+00:22:34,760 --> 00:22:37,760
+Cuman mungkin ini, ya? Ada beberapa yang ...
+
+271
+00:22:38,560 --> 00:22:41,160
+ilang gitu logonya mungkin, ya?
+
+272
+00:22:41,160 --> 00:22:42,840
+Tapi, oke sih.
+
+273
+00:22:42,840 --> 00:22:49,300
+Ini tulisannya juga udah jelas banget buat dibaca gitu.
+
+274
+00:22:49,300 --> 00:22:53,220
+Udah enak dilihat sih kalau buat tampilan di <i>mobile</i>.
+
+275
+00:22:54,700 --> 00:22:56,820
+Terus ke kategori.
+
+276
+00:22:58,680 --> 00:22:59,960
+Coba aku ...
+
+277
+00:23:05,480 --> 00:23:07,240
+Cek yang teratas.
+
+278
+00:23:43,460 --> 00:23:47,780
+Hmm ... Mungkin jaringan aku apa dari ininya, ya? Aku kurang tahu juga.
+
+279
+00:23:57,080 --> 00:23:59,880
+Kemungkinannya sih dari <i>hosting</i>-nya sih.
+
+280
+00:24:01,320 --> 00:24:02,500
+- Biasanya gitu.
+- Oh.
+
+281
+00:24:03,480 --> 00:24:07,360
+Jadi, lebih <i>prefer</i> pakai <i>desktop</i> aja gitu, ya?
+
+282
+00:24:07,360 --> 00:24:09,360
+Pakai laptop gitu biar cepet.
+
+283
+00:24:15,520 --> 00:24:18,640
+Mungkin coba di-<i>reload</i> kali, Lis.
+
+284
+00:24:19,200 --> 00:24:20,640
+<i>Reload</i>, ya? Bentar, ya.
+
+285
+00:24:53,480 --> 00:24:55,780
+Hmm ... Coba kategori lain dulu deh.
+
+286
+00:25:00,380 --> 00:25:01,620
+Nah, jalan nih.
+
+287
+00:25:05,840 --> 00:25:09,700
+Oh iya, Elis. Sebenarnya itu gambarnya bisa dipencet gitu loh, Lis.
+
+288
+00:25:09,700 --> 00:25:11,960
+Supaya kayak gede gitu.
+
+289
+00:25:12,220 --> 00:25:14,240
+Oh, gini. <i>Pop-up</i> gitu, ya?
+
+290
+00:25:14,240 --> 00:25:14,840
+Iya.
+
+291
+00:25:15,480 --> 00:25:17,440
+- Supaya bisa kelihatan juga.
+- Oh, kalau di laptop juga sama?
+
+292
+00:25:17,920 --> 00:25:20,280
+Iya, di laptop juga bisa.
+
+293
+00:25:21,380 --> 00:25:22,600
+Oke.
+
+294
+00:25:22,920 --> 00:25:23,860
+Iya, iya, bener.
+
+295
+00:25:23,860 --> 00:25:26,520
+Kalau di sini kan agak kecil gitu, ya. Kalau mau di-<i>zoom</i>.
+
+296
+00:25:26,640 --> 00:25:27,840
+Mau lihat <i>detail</i>-nya.
+
+297
+00:25:30,580 --> 00:25:31,780
+Oke bagus.
+
+298
+00:25:33,300 --> 00:25:34,700
+Berfungsi semua.
+
+299
+00:25:44,740 --> 00:25:46,200
+Coba aku <i>submit</i>, ya.
+
+300
+00:25:47,760 --> 00:25:52,060
+Oh, ini belum ini, ya? Belum <i>login</i>, ya?
+
+301
+00:25:56,480 --> 00:25:58,960
+Mungkin untuk <i>submit</i> udah ini kali, ya?
+
+302
+00:25:58,960 --> 00:26:00,960
+Udah ... Tuh udah bisa juga tuh.
+
+303
+00:26:12,840 --> 00:26:14,040
+Hmm ...
+
+304
+00:26:19,040 --> 00:26:23,520
+Coba yang, tadi apa, ya?
+Terbaru.
+
+305
+00:26:28,960 --> 00:26:32,040
+Oke mungkin butuh waktu gitu, ya?
+Kalau di <i>mobile</i>, ya?
+
+306
+00:26:32,840 --> 00:26:37,780
+Tadi yang ini cukup cepet yang ini nih.
+
+307
+00:26:40,520 --> 00:26:41,880
+Yang wanita.
+
+308
+00:26:43,060 --> 00:26:44,940
+Mungkin yang lain juga. Cuman ...
+
+309
+00:26:45,120 --> 00:26:50,960
+bisa karena <i>hosting</i> atau mungkin koneksi dari internet aku juga.
+
+310
+00:26:50,960 --> 00:26:52,200
+Kurang tahu deh.
+
+311
+00:26:53,760 --> 00:26:56,880
+Tapi <i>so far</i> udah ini sih untuk tampilan <i>mobile</i>.
+
+312
+00:26:57,500 --> 00:27:00,000
+Udah enak dilihat gitu.
+
+313
+00:27:00,000 --> 00:27:02,820
+Terus, gampang digunainnya juga.
+
+314
+00:27:03,140 --> 00:27:08,360
+Jadi mempermudah gitu, ya. Ngga mesti lewat laptop mulu buka <i>website</i>-nya.
+
+315
+00:27:13,140 --> 00:27:14,560
+Iya betul, Elis.
+
+316
+00:27:15,280 --> 00:27:18,300
+Apakah sudah nih nyobanya? Apa masih mau coba-coba lagi?
+
+317
+00:27:19,660 --> 00:27:21,160
+Udah mungkin cukup, ya?
+
+318
+00:27:21,420 --> 00:27:24,340
+Ini udah berfungsi semua.
+
+319
+00:27:24,340 --> 00:27:29,540
+Dari tadi dari kategori yang disajiin.
+
+320
+00:27:30,440 --> 00:27:36,580
+Terutama yang ininya yang untuk lihat OOTD-nya udah, udah cakep-cakep semua kok.
+
+321
+00:27:37,580 --> 00:27:38,780
+- Gitu, <i>guys.</i>
+- Oke.
+
+322
+00:27:38,780 --> 00:27:39,740
+Terima kasih, Elis.
+
+323
+00:27:39,740 --> 00:27:44,580
+Jadi, kan emang fitur utama kita ini memberikan rekomendasi. Dan alhamdulillah fiturnya udah jalan, ya, Elis.
+
+324
+00:27:47,480 --> 00:27:50,120
+Iya, betul. <i>Good job, guys</i>.
+
+325
+00:27:50,620 --> 00:27:56,720
+Oke, makasih banget nih atas kerja sama kita dari awal sampai akhir <i>website</i>-nya akhirnya selesai juga. Jadi juga.
+
+326
+00:27:56,720 --> 00:28:00,820
+Nah, di akhir mungkin ada beberapa pertanyaan nih yang bakal kita tanyain ke Elis.
+
+327
+00:28:00,820 --> 00:28:04,040
+Jadi <i>feedback</i> aja gitu.
+Boleh nih dari teman-teman aku.
+
+328
+00:28:08,000 --> 00:28:11,560
+Nah, iya, Elis. Dari kategori yang udah ada tadi tuh,
+
+329
+00:28:11,840 --> 00:28:15,920
+kalau misalkan mau ditambahin, Elis kira-kira pengen nambahin kategori apa?
+
+330
+00:28:19,980 --> 00:28:20,980
+Hmm ...
+
+331
+00:28:23,420 --> 00:28:26,780
+Dari <i>gender</i>, terbaru, teratas, ya?
+
+332
+00:28:27,760 --> 00:28:30,060
+Mungkin ini ya, apa, 
+
+333
+00:28:30,920 --> 00:28:34,920
+khusus aksesorisnya gitu loh. Biar ...
+
+334
+00:28:38,340 --> 00:28:41,480
+Kalau dari aku sih pengennya ada fitur itu. Terus ...
+
+335
+00:28:41,980 --> 00:28:44,760
+Selain itu udah, udah,
+
+336
+00:28:45,460 --> 00:28:51,400
+udah bagus banget sih. Maksudnya udah cukup ringkas gitu untuk empat kategori aja.
+
+337
+00:28:51,400 --> 00:28:54,840
+Karena kan kalau terlalu banyak juga nanti <i>user</i>-nya bingung, ya?
+
+338
+00:28:55,400 --> 00:29:01,700
+Itu kalian pemilihan dari <i>gender</i>, teratas, terbaru itu udah, udah bagus banget sih menurut aku.
+
+339
+00:29:01,800 --> 00:29:08,360
+Cuman kalau emang mau ditambahin mungkin aksesorisnya gitu terpisah gitu kalau emang mau itu, <i>guys</i>.
+
+340
+00:29:10,060 --> 00:29:11,760
+Sisanya udah <i>good</i>.
+
+341
+00:29:13,020 --> 00:29:16,740
+- Kenapa?
+- Terus yang paling ditunggu-tunggu sih ini.
+
+342
+00:29:16,740 --> 00:29:21,460
+Kalau mau dikasih <i>rating</i>, kira-kira Elis mau ngasih <i>rating</i> berapa nih <i>website</i> kita?
+
+343
+00:29:21,980 --> 00:29:26,920
+- Aduh jangan ditanya, ya. Dari tadi saya memuji terus ini.
+- Haha
+
+344
+00:29:27,200 --> 00:29:30,100
+- <i>Rating</i>-nya dari berapa?
+- Kalau <i>rating</i> dari nol sampai sepuluh nih.
+
+345
+00:29:30,240 --> 00:29:32,100
+- Dari nol sampai sepuluh nih.
+- Oh.
+
+346
+00:29:33,560 --> 00:29:39,260
+Dari awal gitu kalian ngajak kerja sama gitu.
+
+347
+00:29:41,040 --> 00:29:46,980
+Itu udah, selain di <i>development</i> kalian yang cepet gitu.
+
+348
+00:29:46,980 --> 00:29:53,780
+Terus pembawaan dan kerja sama kalian juga keliatan sih di sini.
+
+349
+00:29:53,780 --> 00:29:59,600
+Bukan sekadar harus ngerjain tugas aja gitu.
+Di samping itu gitu.
+
+350
+00:30:00,120 --> 00:30:05,860
+Ya jadi, ya. Satu sampai seratus kasih ... Eh, satu sampai seratus ... Satu sampai sepuluh, ya?
+
+351
+00:30:05,860 --> 00:30:07,000
+Pengen banget seratus sih.
+
+352
+00:30:07,620 --> 00:30:15,140
+Satu sampai sepuluh, kasih sepuluh buat tim Ayu, Hani, eh ... Hana, dan Agnes.
+
+353
+00:30:16,240 --> 00:30:18,120
+Itu, <i>guys</i>. Sepuluh sih.
+
+354
+00:30:18,120 --> 00:30:20,860
+Aku lihatnya bukan dari hasil jadi aja.
+
+355
+00:30:20,860 --> 00:30:26,600
+Tapi proses ke belakangnya kalian udah banget. Kerja samanya kelihatan.
+
+356
+00:30:27,200 --> 00:30:29,040
+Dan semangat.
+
+357
+00:30:29,640 --> 00:30:31,500
+Tim ini semangat gitu.
+
+358
+00:30:34,040 --> 00:30:35,900
+Makasih Elis <i>rating</i>-nya.
+
+359
+00:30:36,200 --> 00:30:37,140
+Wah.
+
+360
+00:30:43,140 --> 00:30:49,400
+Kami juga pengen makasih sama Elis karena tetep mau diajakin <i>meet</i> terus sama kita.
+
+361
+00:30:49,740 --> 00:30:57,040
+Iya aduh. Sama-sama. Kan kita ini, ya saling belajar gitu. Seneng diajakin temen-temen gitu.
+
+362
+00:30:57,820 --> 00:31:00,380
+Kebetulan juga <i>relate</i> gitu kan.
+
+363
+00:31:03,720 --> 00:31:06,440
+Oke, Elis makasih banyak nih.
+
+364
+00:31:06,440 --> 00:31:08,920
+Kalau ada kata-kata lagi yang mau disampaiin, boleh.
+
+365
+00:31:08,920 --> 00:31:12,100
+Kalau emang sudah cukup, kita cukupkan juga.
+
+366
+00:31:13,100 --> 00:31:19,440
+Dari aku mungkin mau makasih juga sama temen-temen.
+
+367
+00:31:19,540 --> 00:31:27,000
+Terutama ya makasih juga buat timnya gitu udah berhasil mewujudkan <i>website</i> yang sesuai dengan 
+
+368
+00:31:27,000 --> 00:31:31,880
+apa yang kita mau gitu. Terutama apa yang saya mau dari awal.
+
+369
+00:31:32,700 --> 00:31:35,660
+Tetap semangat ke depannya.
+<i>Stay happy, guys</i>.
+
+370
+00:31:36,660 --> 00:31:39,360
+Oke terima kasih, Elis.
+
+371
+00:31:40,380 --> 00:31:44,960
+Makasih banyak atas kerja samanya dari awal sampai akhir ya. Akhirnya selesai juga.
+
+372
+00:31:44,960 --> 00:31:51,220
+Banyak banget makasihnya dari kami sebagai tim. Dari aku Ayu, Hana, dan Agnes kepada Elis.
+
+373
+00:31:51,360 --> 00:31:55,180
+Nah, mungkin kita cukupkan saja <i>meeting</i> pada hari ini.
+
+374
+00:31:55,180 --> 00:31:56,760
+Terima kasih banyak, Elis.
+
+375
+00:31:56,760 --> 00:32:00,520
+Kami akhiri, wassalamualaikum warahmatullahi wabarakatuh.
+
+376
+00:32:01,620 --> 00:32:05,240
+Waalakumsalam warahmatullahi wabarakatuh.
+
+377
+00:32:05,240 --> 00:32:06,660
+Terima kasih, Elis.
+
+378
+00:32:06,960 --> 00:32:08,680
+Makasih, Elis.
+
